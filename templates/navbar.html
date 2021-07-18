@@ -1,0 +1,23 @@
+
+<style>
+  .hello{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+</style>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="{% url 'main' %}">EXPENSE TRACKER</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+      </ul>
+      <span class="text-white hello" >Hello,{{request.user}}</span>
+      <button type="button" class="btn btn-warning"><a class="text-white" href="{% url 'logout' %}">Logout</a></button>
+      <span class="text-success" ><a class="hello-msg" href="{% url 'logout' %}">Logout</a></span>
+    </div>
+  </nav>

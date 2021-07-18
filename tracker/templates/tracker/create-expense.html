@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .center-column{
+		width:800px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+</style>
+<h3 align=center class="alert alert-primary">Create Expense</h3>
+<div class="center-column">
+<form method="POST">
+    {% csrf_token %}
+    {{expense.as_p}}
+    <input class="btn btn-sm btn-success" type="submit">
+</form>
+</div>
+{% endblock%}
