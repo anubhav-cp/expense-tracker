@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-odz+qc$kd!(u*aws=a+y#$uoxvk50usl7da+b12*u@_4rri*ga
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://anubhavcp-expense-tracker.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['anubhavcp-expense-tracker.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
