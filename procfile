@@ -1,1 +1,1 @@
-web: gunicorn budgettracker.wsgi --log-file -
+web: gunicorn budgettracker.budgettracker.wsgi
