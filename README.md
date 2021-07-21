@@ -33,6 +33,12 @@ pip install -r requirements.txt
 ```python
 python manage.py runserver
 ```
-You are all set! Open localhost:8000 to see the app.
+You are all set! Open [localhost:8000](http://localhost:8000/) to see the app.
+
+## 🍰 Contributing
+
+Pull Requests are always welcome! You can add a cheatsheet on the browser (Anonymously or Singed In). Your cheatsheet will be reviewed and added to the app, also see yourself in contributors.
+
+If you wish to contribute using Github, you can work on any features or create one on your own. After adding your code, send us a Pull Request.
 
 
