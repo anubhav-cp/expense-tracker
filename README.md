@@ -7,10 +7,9 @@ A simple Expense Tracker Website to keep track of all your expense.
 - Saves your Expenses 
 
 
-## Language and Tools:
-* Python
-* Django
-* Bootstrap 
+## 💻 Built with
+- Django
+- Bootstrap
 
 ## 🛠️ Installation Steps
 
@@ -27,12 +26,13 @@ cd expense-tracker
 
 3. Install dependencies
 ```
-pip install django whitenoise gunicorn 
+pip install -r requirements.txt
 ```
 
 5. Run the Server
 ```python
 python manage.py runserver
 ```
+You are all set! Open localhost:8000 to see the app.
 
 
