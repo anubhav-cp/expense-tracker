@@ -8,5 +8,8 @@ A simple Expense Tracker Website to keep track of all your expense.
 
 
 ## Language and Tools:
-> Python
-> Django
+* Python
+* Django
+* Bootstrap 
+
+
